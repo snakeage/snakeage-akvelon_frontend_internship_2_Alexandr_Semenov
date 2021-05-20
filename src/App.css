@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  min-width: 350px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-repeat: 5px;
+}
+
+.title {
+  color: aqua;
+  text-align: center;
+  margin: 80px 0px 40px;
+}
+
+.name,
+.email,
+.password {
+  margin: 20px;
+  color: rgb(85, 54, 54);
+  font-size: 16px;
+}
+
+.password {
+  margin-bottom: 40px;
+}
+
+.input {
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.submit {
+  display: flex;
+  text-transform: capitalize;
+  font-size: 20px;
+  border-radius: 6px;
+  border-color: rgb(142, 168, 202);
+  box-shadow: -2px 2px 3px -1px rgb(43, 139, 131);
+  color: white;
+  background-color: aqua;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+}
